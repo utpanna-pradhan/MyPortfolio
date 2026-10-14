@@ -34,7 +34,7 @@ export function Blog() {
         {filtered.map((post, i) => (
           <motion.a
             key={post.title}
-            href={profile.medium}
+            href={post.link}
             target="_blank"
             rel="noreferrer"
             initial={{ opacity: 0, y: 30 }}

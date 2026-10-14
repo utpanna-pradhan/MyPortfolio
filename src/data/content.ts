@@ -62,6 +62,35 @@ export type Project = {
 };
 
 export const projects: Project[] = [
+  {
+  id: 'webnest',
+  title: 'WEBNEST',
+  tagline: 'Premium websites. Ready to launch.',
+  category: 'Web App',
+
+  overview:
+    'WEBNEST is a modern digital platform for discovering and purchasing premium, ready-to-use website templates for restaurants, gyms, salons, portfolios, businesses, and more.',
+
+  problem:
+    'Building a professional website from scratch can be time-consuming and expensive, especially for small businesses and individuals who need a website quickly.',
+
+  solution:
+    'Built WEBNEST as a modern template marketplace where users can explore professionally designed website templates, preview live demos, and choose a website that fits their needs.',
+
+  tech: ['React', 'TypeScript', 'Tailwind CSS', 'Vite', 'Framer Motion'],
+
+  challenges:
+    'Creating a premium and responsive browsing experience while making it easy for users to discover templates, preview designs, understand what is included, and contact WEBNEST for customization.',
+
+  results:
+    'Created a responsive digital platform that showcases premium website templates with live previews, clear product information, WhatsApp integration, and an easy path for customers to request or purchase a website.',
+
+  accent: '#22d3ee',
+
+  githubUrl: 'https://github.com/utpanna-pradhan/WebNest',
+
+  liveUrl: 'https://web-nest-phi.vercel.app/',
+},
 {
   id: 'experience-bargarh',
   title: 'Experience Bargarh',
@@ -238,31 +267,39 @@ export const testimonials: Testimonial[] = [
 
 export const blogPosts = [
   {
-    title: 'Building a Cinematic Portfolio with React Three Fiber',
-    excerpt: 'How I combined WebGL particles, GSAP scroll triggers, and a Lenis smooth scroll to create an immersive personal site.',
-    tag: 'WebGL',
-    readingTime: '8 min',
-    date: '2025',
-  },
-  {
-    title: 'TypeScript Patterns I Actually Use',
-    excerpt: 'Practical type patterns for React apps — discriminated unions, branded types, and when to stop typing.',
-    tag: 'TypeScript',
-    readingTime: '6 min',
-    date: '2025',
-  },
-  {
-    title: 'Performance Budgets for Frontend Engineers',
-    excerpt: 'Setting and defending a performance budget so your animations do not cost you users.',
-    tag: 'Performance',
-    readingTime: '7 min',
-    date: '2024',
-  },
-  {
-    title: 'Why I Stopped Fighting the Browser',
-    excerpt: 'Native platform features that replaced libraries I used to install by default.',
-    tag: 'Web',
-    readingTime: '5 min',
-    date: '2024',
-  },
+  title: 'Learning TypeScript from Scratch: From JavaScript Basics to React, APIs, and Generics',
+  excerpt: 'A beginner-friendly guide to TypeScript, covering JavaScript fundamentals, static typing, interfaces, React props, API responses, and generics with practical examples.',
+  tag: 'TypeScript',
+  readingTime: '12 min',
+  date: '2026',
+   link:"https://medium.com/@utpanna828/learning-typescript-from-scratch-from-javascript-basics-to-react-apis-and-generics-11f2b1eb1a84"
+},
+{
+  title: 'Debugging Made Simple: How to Find Bugs, Fix Them, and Debug AI-Generated Code',
+  excerpt: 'Learn a systematic approach to debugging, finding the root cause of errors, fixing bugs without creating new ones, and troubleshooting AI-generated code with confidence.',
+  tag: 'Debugging',
+  readingTime: '9 min',
+  date: '2026',
+   link:"https://medium.com/@utpanna828/debugging-made-simple-how-to-find-bugs-fix-them-and-debug-ai-generated-code-7636dcb04a51"
+},
+
+{
+  title: '🚀 React Context API: A Beginner-Friendly Deep Dive',
+  excerpt: 'Understand why React Context API is useful, how it avoids prop drilling, and how to share data across components with simple, beginner-friendly examples.',
+  tag: 'React',
+  readingTime: '4 min',
+  date: '2025',
+   link:"https://medium.com/@utpanna828/react-context-api-a-beginner-friendly-deep-dive-b6bd082be78f"
+},
+
+{
+  title: 'Controlled and Uncontrolled Components in React.js',
+  excerpt: 'Understand the difference between controlled and uncontrolled components in React forms, with practical examples, key characteristics, and guidance on when to use each approach.',
+  tag: 'React',
+  readingTime: '2 min',
+  date: '2025',
+   link:"https://medium.com/@utpanna828/controlled-and-uncontrolled-components-in-react-js-45ed397eef8f"
+},
+
+
 ];
